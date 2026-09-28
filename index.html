@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="lola.css">
+</head>
+
+<body>
+
+    <nav>
+    <button class="hamburger" id="hamburger">☰</button>
+     
+  <div class="menu" id="menu">
+
+  <a href="polos.html">polos</a>
+
+  <a href="pantalones.html">pantalones</a>
+
+  <a href="zapatillas.html">zapatillas</a>
+
+  </div>
+
+<img src="Mangekyou_Sharingan_Sasuke.svg.webp" alt="logo">
+
+  <div>
+
+
+
+  <script>
+
+    document.getElementById("hamburger").onclick = function
+
+    () {
+
+      const menu = document.getElementById("menu");
+
+      menu.style.display = menu.style.display ===
+
+      "block" ? "none" : "block" ;
+
+    
+
+    }
+
+  </script>
+
+
+
+</div>
+
+<div class="enlaces">
+
+<a href="">inicio</a>
+
+<a href="">somos</a>
+
+<a href="">producto</a>
+
+<a href="contacto.html">contacto</a>
+
+
+
+
+<button>ingreso</button>
+</div>
+    </nav>
+    
+    <div class="formulario">
+
+        <h1>Contáctanos</h1>
+
+        <form action="proceso.php" method="post">
+
+            <div class="fila">
+                <input type="text" name="nombre" placeholder="Nombre">
+
+                <input type="text" name="apellidos" placeholder="Apellidos">
+            </div>
+
+            <div class="fila">
+                <input type="tel" name="telefono" placeholder="Teléfono">
+
+                <input type="text" name="empresa" placeholder="Empresa">
+            </div>
+
+            <input type="email" name="email" placeholder="E-mail">
+
+            <textarea name="mensaje" placeholder="Mensaje"></textarea>
+
+            <div class="privacidad">
+                <input type="checkbox" name="privacidad" id="privacidad">
+                <label for="privacidad">
+                    Acepto las políticas de privacidad
+                </label>
+            </div>
+
+            <button type="submit">ENVIAR</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
